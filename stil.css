@@ -1,0 +1,528 @@
+@font-face {
+		font-family:"Poiret One";
+		src: url(fonts/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family:"SourceCode";
+    src: url(fonts/font.ttf);
+}
+
+#image {
+width: 100%;
+height: 700px;
+}
+
+
+
+/*Share Butonları Başlangıç*/
+.share {
+width: 30px;
+height: 290px;
+
+    position: fixed;
+    top: 50%;
+    z-index: 20;
+    left: 0px;
+    text-align: center;
+    
+    transition: all .3s ease;
+    
+    	box-shadow: 0px 0px 100px 1px #000;
+
+    
+    
+}
+
+#shareBox {
+display: block;
+    width: 3%;
+height: 36px;
+z-index: 20;
+    transition: all .3s ease;
+
+}
+
+.icons{
+
+    padding: 20px 0px 2px 2px;
+font-size: 15px;
+    transition: all .3s ease;
+    opacity: 0.7;
+}
+
+.a {
+font-size: 15px;
+    transition: all .3s ease;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.a:hover {
+      font-size: 20px;
+
+    opacity: 1;
+}
+
+.icons:hover {
+
+    opacity: 1;
+}
+.share:hover {
+transform: translate(0,-25%);
+    height: 290px;
+    width: 77px;
+  
+    
+}
+#shareBox:hover {
+width:75px;
+    transition: all .3s ease;
+    
+}
+
+
+
+/*Box Rekleri*/
+
+.box1 {
+background-color: #0e5061;
+}
+.box2 {
+background-color: #5da5a2;
+}
+.box3 {
+background-color: #f25724;
+}
+.box4 {
+background-color: #174459;
+}
+.box5 {
+background-color: #37a4d9;
+}
+
+/*Renkler Bitiş*/
+/*Share Butonları Bitiş*/
+
+.main_menu {
+margin-left: -200px;
+margin: -25px 0px;
+}
+
+
+.banner{
+	margin-left: 125px;
+	position:relative;
+	padding-top: 30px;
+	height:65px;
+
+}
+nav {
+	text-align: center;
+
+	margin: 20px auto;
+	width: 90%;
+	max-width: 1000px;
+	margin-right: 50px;
+	margin-top: -65px;
+}
+
+nav > ul {
+	display:table;
+	overflow:hidden;
+	width: 100%;
+	background:none;
+	position:relative;
+}
+
+nav > ul li {
+	display: table-cell;
+}
+
+nav > ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 25px;
+	padding: 20px;
+	position: relative;
+	text-align; center;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+	
+nav > ul > li > a span{
+	background: #174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	top: -60px;
+
+}
+
+nav > ul > li > a span .icon{
+	display: block;
+	line-height:60px;
+}
+	
+nav > ul > li > a:hover > span {
+	top:0;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}	
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header li {
+	list-style: none;
+	display: inline;
+	font-size: 15px;
+	font-family: helvetica;
+	font-style: bold;
+}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+line-height:2;
+}
+
+h2, h3 {
+font-family: 'Source Sans Pro', sans-serif;
+    line-height:3;
+}
+
+.yuvarlak {
+width:400px;
+margin-top:-218px;
+display: block;
+left: 35%;
+position:absolute;
+z-index:3;
+}
+
+.full-width {
+ width:100%;
+ height: 75px;
+ background: url(images/header.png) repeat-x;
+ background-color:rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+}
+
+.wall_1 {
+background: url(images/1.JPG) no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+z-index: 1;
+    background-attachment: fixed;
+}
+
+.wall_2 {
+background: url(images/2.JPG) no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+z-index: 1;
+    background-attachment: fixed;
+}
+
+.wall_3 {
+background: url(images/3.jpg) no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+z-index: 1;
+    background-attachment: fixed;
+}
+
+.page_1 {
+	background-image: url("images/p1.png");
+	background-repeat:repeat;
+	width: 100%;
+	height:500px;
+	position: relative;
+
+	box-shadow: 0px 0px 50px 3px #000;
+	z-index: 2;
+}
+
+.page_2 {
+	background-image: url("images/p2.png");
+	background-repeat:repeat;
+	width: 100%;
+	height:100px;
+	position: center;
+	text-align: center;
+	box-shadow: 0px 0px 50px 3px #000;
+	z-index: 2;
+}
+
+.page_3 {
+width: 100%;
+    background-color: whitesmoke;
+    height: 1200px;
+    box-shadow: 0px 0px 50px 3px #000;
+	z-index: 2;
+}
+
+.page_4{
+    width: 100%;
+background-color: #DEE9F1;
+    height: 1090px;
+    z-index: 2;
+}
+
+.page_5{
+    width: 100%;
+background-color: #13181B;
+    height: 500px;
+    z-index: 2;
+}
+
+.page_6{
+    width: 100%;
+background-color: #fff;
+    height: 25px;
+    z-index: 2;
+}
+
+.contentImage {
+position:relative;
+height:420px;
+background-color: #000;
+box-shadow: 0px 0px 50px 3px #000;
+width: 800px;
+top: 5%;
+left: 5%;
+}
+
+.contentImage2 {
+margin: -4px;
+padding-right: 6px;
+}
+
+.contentP1 {
+position:absolute;
+color: #fff;
+top: 50%;
+transform: translate(0,-50%);
+right: 10%;
+text-align: left;
+width:750px;
+text-shadow: 1px 1px 10px #000000;
+
+}
+
+.contentP2 {
+position:relative;
+color: #47484B;
+top: 50%;
+transform: translate(0,-50%);
+text-align: center;
+    font-size: 27px;
+
+}
+
+.contentP3{
+    position:relative;
+    top: 2%;
+width: 80%;
+    height: auto;
+    color: #4F4F52;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    font-size: 22px;
+}
+
+.contentP4 {
+    position:relative;
+    display:inline-block;
+
+    margin: 100px 5%;
+    width: 40%;
+    height: auto;
+    color: #4F4F52;
+    float: left;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.contentP7 {
+ position:relative;
+    display:inline-block;
+
+    margin: 100px 5%;
+    width: 40%;
+    height: auto;
+    color: #4F4F52;
+    float: left;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.div1{
+top:25%;
+    position: relative;
+    width: 100%;
+    font-size: 13px;
+
+}
+
+.div2 {
+top: 5%;
+    position: relative;
+    width: 100%;
+    font-size: 13px;
+}
+
+.contentP50 {
+    position: relative;
+    display: inline-block;
+    margin-left: 6%;
+    width: 25%;
+    height: auto;
+    color: #4F4F52;
+    float: left;
+    margin-bottom: 20px;
+   
+}
+
+.contentP51 {
+    position: relative;
+    display: inline-block;
+margin-left: 6%;
+    width: 25%;
+    height: auto;
+    color: #4F4F52;
+float: left;
+    margin-bottom: 20px;
+   
+}
+.contentP52 {
+    position: relative;
+    display: inline-block;
+   margin-left: 6%;
+    width: 25%;
+    height: auto;
+    color: #4F4F52;
+float: left;
+    margin-bottom: 20px;
+   
+}
+
+.contentP6 {
+    position: relative;
+    display: inline-block;
+    margin-left: 6%;
+    width: 25%;
+    height: 500px;
+    color: #4F4F52;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    width: 30%;
+    height: auto;
+    margin-top: 25%;
+    padding: 20px 0px;
+    color: darkturquoise;
+    text-align: center;
+    position: relative;
+    display:block;
+    border: 1px solid #C9E7FF;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+    transition: all .3s ease;
+}
+
+.button1:hover {
+    background-color:aliceblue;
+}
+
+.button2{
+width: 70%;
+    height: auto;
+    padding: 20px 0px;
+    color: darkturquoise;
+    text-align: center;
+    position: relative;
+    display:block;
+    border: 1px solid #C9E7FF;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-left: 15px;
+}
+
+.button2:hover {
+    background-color:aliceblue;
+}
+
+.button3{
+width: 40%;
+    height: auto;
+    padding: 20px 0px;
+    color: darkturquoise;
+    text-align: center;
+    position: relative;
+    display:block;
+    border: 1px solid #C9E7FF;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-left: 15px;
+}
+
+.button3:hover {
+    background-color:aliceblue;
+}
+.float{
+   float: left;
+    left: 1px;
+    margin-right: 18px;
+    position: relative;
+    top: 10px;
+}
+
+
+//Renkler____________________________
+nav ul li a .birinci {
+	background: #0e5061;
+}
+
+nav ul li a .ikinci {
+	background: #5da5a2;
+}
+
+nav ul li a .ucuncu {
+	background: #f25724;
+}
+
+nav ul li a .dorduncu {
+	background: #174459;
+}
+nav ul li a .besinci {
+	background: #37a4d9;
+}
+//Renkler Sonu______________________________
